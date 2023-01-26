@@ -1,0 +1,175 @@
+/*********************************ELEMENT SELECTOR*********************************/
+
+a {
+    color: #11999E;
+}
+
+body {
+    border: 0;
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+  background-image: linear-gradient(to left, #11cdd4, #11999e);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;   
+  margin: 4px 2px 80px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    margin: 2.6rem auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted #EAF6F6 5px;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+    margin: 0;
+}
+
+/*********************************CLASS SELECTORS*********************************/
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 150px;
+    padding-top: 75px;
+    width: 100%;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 12px;
+    padding: 30px 0;
+}
+
+.chill-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+/*
+.contact-me {
+    display: absolute;
+    line-height: 2;
+    margin: 10% auto;
+    text-align: center;
+    width: 39%;
+}
+*/
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.footer-link{
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.middle-container {
+    
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile {
+    line-height: 2;
+    margin: 6.25rem auto;
+    
+}
+
+.personal-img {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.skill-row {
+    margin: 6.25rem auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    border: none;
+    height: 100%;
+    position: relative;
+    padding-top: 50px;
+    box-shadow: 0px 5px 35px #888888;
+}
+
+/*********************************PSEUDOCLASS SELECTORS*********************************/
+
+button:hover {
+    background-image: linear-gradient(to left, #30e3cb, #2bc4ad);
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
